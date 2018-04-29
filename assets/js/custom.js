@@ -47,11 +47,11 @@ jQuery(function($) {
 
 	if ( $( '#map' ).length > 0 ) {
 		
-      var eventmap = {lat: 40.742964, lng: -73.992277};
+      var eventmap = {lat: 51.7505458, lng: 19.4501351};
 
       $('#map')
       .gmap3({
-         zoom: 13,
+         zoom: 15,
          center: eventmap,
          mapTypeId : google.maps.MapTypeId.ROADMAP,
          scrollwheel: false
