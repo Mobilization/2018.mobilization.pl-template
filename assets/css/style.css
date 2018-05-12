@@ -118,15 +118,6 @@ a:visited {
     text-decoration: none;
 }
 
-a {
-    color: #1cb008;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #000;
-}
-
 a.read-more {
     color: #1cb008;
     font-weight: 700;
@@ -516,67 +507,6 @@ cite {
     display: block;
     font-size: 14px;
     margin-top: 10px;
-}
-
-/* Button */
-
-.btn.btn-primary,
-.btn-dark,
-.btn-border {
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    padding: 13px 18px;
-    line-height: 1.33;
-    border-radius: 3px;
-    border: 0;
-    -webkit-transition: color 400ms, background-color 400ms, border-color 400ms;
-    -o-transition: color 400ms, background-color 400ms, border-color 400ms;
-    transition: color 400ms, background-color 400ms, border-color 400ms;
-}
-
-.btn-white.btn-primary {
-    background: #fff;
-    color: #1cb008;
-}
-
-.btn.btn-primary {
-    background: #1cb008;
-    border: 2px solid transparent;
-}
-
-.btn.btn-dark {
-    background: #242427;
-    border: 2px solid transparent;
-}
-
-.btn-border {
-    border: 2px solid #fff;
-    background: none;
-    color: #fff;
-}
-
-.btn-primary:hover,
-.btn-dark:hover,
-.btn-white.btn-primary:hover {
-    background: #d3004e;
-    color: #fff;
-}
-
-.btn-border:hover {
-    background: #1cb008;
-    border: 2px solid transparent;
-    color: #fff;
-}
-
-.general-btn {
-    clear: both;
-    margin-top: 60px;
-}
-
-.intro-content .btn-border {
-    margin-right: 15px;
 }
 
 /* Ul, Ol */
@@ -978,22 +908,6 @@ ul.navbar-nav > li:hover > a {
     position: relative;
 }
 
-.banner-content-wrap:before {
-    content: '';
-    position: absolute;
-    top: -65px;
-    width: 100%;
-    max-width: 380px;
-    text-align: center;
-    height: 500px;
-    left: 50%;
-    margin-left: -190px;
-    z-index: -1;
-    border: 18px solid rgba(104, 89, 222, 0.35);
-    box-sizing: border-box;
-    box-shadow: 0 60px 40px -40px rgba(0, 0, 0, 0.3);
-}
-
 .banner-title {
     color: #fff;
     font-size: 62px;
@@ -1377,132 +1291,6 @@ ul.navbar-nav > li:hover > a {
 .carousel .item.active .animated8 {
     -webkit-animation: bounceInDown 1s ease-in 800ms both;
     animation: bounceInDown 1s ease-in 800ms both;
-}
-
-/* Countdown Default
-================================================== */
-
-.countdown > div {
-    display: inline-block;
-    margin: 0 50px;
-    text-align: center;
-    font-family: Lato, sans-serif;
-}
-
-.countdown div > span {
-    line-height: 100%;
-    font-size: 62px;
-    font-weight: 700;
-}
-
-.countdown .smalltext {
-    top: 0;
-    line-height: 100%;
-    font-size: 22px;
-    text-transform: uppercase;
-    margin-top: 10px;
-}
-
-.countdown > div.counter-day {
-    color: #1cb008;
-}
-
-.countdown > div.counter-hour {
-    color: #FFC107;
-}
-
-.countdown > div.counter-minute {
-    color: #03A9F4;
-}
-
-.countdown > div.counter-second {
-    color: #8BC34A;
-}
-
-/* Countdown col */
-
-.countdown.countdown-col {
-    border-left: 1px solid #dedede;
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
-    padding-left: 25px;
-}
-
-.countdown.countdown-col > div {
-    margin: 0 40px 0 0;
-}
-
-.countdown.countdown-col div > span {
-    font-size: 48px;
-}
-
-.countdown.countdown-col .smalltext {
-    font-size: 20px;
-}
-
-/* Countdown bg */
-
-.countdown.bg-style > div {
-    margin: 0 30px;
-}
-
-.countdown.bg-style div > span {
-    font-size: 28px;
-    width: 65px;
-    height: 60px;
-    line-height: 60px;
-    border-radius: 3px;
-    margin-bottom: 15px;
-    display: block;
-    color: #fff;
-}
-
-.countdown.bg-style div > .smalltext {
-    font-size: 20px;
-    text-transform: capitalize;
-}
-
-.countdown.bg-style > div.counter-day .days {
-    background: #F44336;
-    background: -moz-linear-gradient(145deg, #F44336 0%, #D84315 100%);
-    background: -webkit-linear-gradient(145deg, #F44336 0%, #D84315 100%);
-    background: linear-gradient(145deg, #F44336 0%, #D84315 100%);
-}
-
-.countdown.bg-style > div.counter-day .smalltext {
-    color: #F44336;
-}
-
-.countdown.bg-style > div.counter-hour .hours {
-    background: #03A9F4;
-    background: -moz-linear-gradient(145deg, #03A9F4 0%, #1E88E5 100%);
-    background: -webkit-linear-gradient(145deg, #03A9F4 0%, #1E88E5 100%);
-    background: linear-gradient(145deg, #03A9F4 0%, #1E88E5 100%);
-}
-
-.countdown.bg-style > div.counter-hour .smalltext {
-    color: #03A9F4;
-}
-
-.countdown.bg-style > div.counter-minute .minutes {
-    background: #8BC34A;
-    background: -moz-linear-gradient(145deg, #8BC34A 0%, #689F38 100%);
-    background: -webkit-linear-gradient(145deg, #8BC34A 0%, #689F38 100%);
-    background: linear-gradient(145deg, #8BC34A 0%, #689F38 100%);
-}
-
-.countdown.bg-style > div.counter-hour .smalltext {
-    color: #8BC34A;
-}
-
-.countdown.bg-style > div.counter-second .seconds {
-    background: #FFC107;
-    background: -moz-linear-gradient(145deg, #FFC107 0%, #F57F17 100%);
-    background: -webkit-linear-gradient(145deg, #FFC107 0%, #F57F17 100%);
-    background: linear-gradient(145deg, #FFC107 0%, #F57F17 100%);
-}
-
-.countdown.bg-style > div.counter-second .smalltext {
-    color: #FFC107;
 }
 
 /* banner-content-left */
@@ -2112,7 +1900,6 @@ ul.navbar-nav > li:hover > a {
 
 .sponsor-logo {
     margin: 60px 0;
-    background: #f7f7f7;
     min-height: 125px;
     padding: 0 30px;
     display: flex;
@@ -2231,7 +2018,7 @@ ul.navbar-nav > li:hover > a {
 }
 
 .plan-action .btn-primary {
-    background: #1c1c24;
+    background: #0a9006;
 }
 
 /* Pricing featured */
@@ -2595,7 +2382,7 @@ h4.panel-title a.collapsed:before {
 
 #back-to-top .btn.btn-primary:hover {
     color: #fff;
-    background: #000;
+    background: #0a9006;
 }
 
 /* Sub Pages
