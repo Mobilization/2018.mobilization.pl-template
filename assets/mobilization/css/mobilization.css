@@ -204,7 +204,10 @@ a:hover {
     font-size: 12px;
 }
 
-
 .properties > span {
     margin-right: 20px;
+}
+
+.ts-venue img {
+    max-width: 100%;
 }
